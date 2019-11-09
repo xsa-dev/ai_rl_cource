@@ -1,0 +1,11 @@
+package com.reinforcedlearning.narmedbandit;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		NArmedBanditProblem banditProblem = new NArmedBanditProblem();
+		banditProblem.run();
+		banditProblem.showStatistics();
+	}
+}
